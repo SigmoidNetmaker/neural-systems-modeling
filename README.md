@@ -15,7 +15,7 @@ sn1posFB.m -- implements positive feedback onto a single model neuron
 BigMess.m -- computes responses of single-layer network with random input and feedback connections
 
 
-
+  
 Chapter 2. Recurrent Connections and Simple Neural Circuits
 
 Chapter 3. Forward and Recurrent Lateral Inhibition
