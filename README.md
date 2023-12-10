@@ -38,6 +38,7 @@ itrel.m -- iterates a winner-take-all lateral inhibitory network
 setit.m -- sets parameters for a winner-take-all lateral inhibitory network  
 
 Chapter 4. Covariation Learning and Auto-Associative Memory  
+
 HPPTNS.m -- holds sets of patterns to be remembered by auto-associative networks  
 HPCVMX.m -- makes Hopfield auto-associative covariance matrix using nested loops  
 HPALLM.m -- makes Hebb, post, pre, and Hopfield covariance matrices using nested loops  
@@ -46,7 +47,7 @@ HPSYUP.m -- makes 1 synchronous update of an auto-associative network
 HPASUP.m -- makes 1 asychronous update of an auto-associative network  
 HPSY.m -- computes N synchronous updates of an auto-associative network  
 HPAS.m -- computes N asychronous updates of an auto-associative network  
-HPCAS.m -- computes N asychronous updates and saves every 10th network state
+HPCAS.m -- computes N asychronous updates and saves every 10th network state  
 HPCMVR.m -- verifies auto-associative networks started from weak initial pattern  
 HPLSCM.m -- lesions auto-associative networks by removing connections at random  
 HPRNPT.m -- makes a set of random patterns according to preset probabilities  
