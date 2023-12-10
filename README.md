@@ -54,12 +54,15 @@ HPRNPT.m -- makes a set of random patterns according to preset probabilities
 hpopcm.m -- makes optimal associative matrix given probability of input presence  
 hpopev.m -- creates and evaluates optimal associative network given input probability  
 
+Chapter 5. Unsupervised Learning and Distributed Representations  
 
-
-
-
-
-Chapter 5. Unsupervised Learning and Distributed Representations
+SMPTNS.m -- holds patterns for training self-organizing feature maps  
+SMNP.m -- normalizes patters for training self-organizing feature maps  
+SMRNMX.m -- makes a matrix of random numbers between -1 and +1  
+SMSK.m -- performs unsupervised learning using simplified Kohonen algorithm  
+SMVR.m -- verifies self-organized maps created using simplified Kohonen  
+SMSKT.m -- simulates formation of a tonotopic self-organized feature map  
+SMVRT.m -- verifies tonotopic self-organized feature map  
 
 Chapter 6. Supervised Learning and Non-Uniform Representations
 
