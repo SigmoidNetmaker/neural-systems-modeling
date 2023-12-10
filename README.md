@@ -11,7 +11,7 @@ Chapter 1. Vectors, Matrices, and Basic Neural Computations
 introPlay.m -- performs some simple vector manipulations and computations  
 BiVarGaussPlay.m -- computes and displays bivariate Gaussian distributions  
 habGWR.m -- simulates habituation of the Aplysia gill withdrawl reflex  
-sn1posFB.m -- implements positive feedback onto a single model neuron (also called a "unit") 
+sn1posFB.m -- implements positive feedback onto a single model neuron (also called a "unit")  
 BigMess.m -- computes responses of single-layer network with random input and feedback connections
   
 Chapter 2. Recurrent Connections and Simple Neural Circuits  
