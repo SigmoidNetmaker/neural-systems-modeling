@@ -6,33 +6,35 @@ All of the code (MATLAB mfiles) is extensively commented and was written to be e
 
 The book is organized into 14 chapters, each with its own set of mfiles. The names of most of the mfiles begin with two letters that signify the chapter to which they belong. Mfile names in all caps signify mfiles that are printed out and described in detail in the book. Mfile names that depart from those conventions are ancillary. The book chapters and the mfiles to which they belong are listed below.   
 
-1. Vectors, Matrices, and Basic Neural Computations
+Chapter 1 -- Vectors, Matrices, and Basic Neural Computations
+introPlay.m  performs some simple vector manipulations and computations  
 
-2. Recurrent Connections and Simple Neural Circuits
 
-3. Forward and Recurrent Lateral Inhibition
+3. Recurrent Connections and Simple Neural Circuits
 
-4. Covariation Learning and Auto-Associative Memory
+4. Forward and Recurrent Lateral Inhibition
 
-5. Unsupervised Learning and Distributed Representations
+5. Covariation Learning and Auto-Associative Memory
 
-6. Supervised Learning and Non-Uniform Representations
+6. Unsupervised Learning and Distributed Representations
 
-7. Reinforcement Learning and Associative Conditioning
+7. Supervised Learning and Non-Uniform Representations
 
-8. Information Transmission and Unsupervised Learning
+8. Reinforcement Learning and Associative Conditioning
 
-9. Probability Estimation and Supervised Learning
+9. Information Transmission and Unsupervised Learning
 
-10. Time-Series Learning and Nonlinear Signal Processing
+10. Probability Estimation and Supervised Learning
 
-11. Temporal-Difference Learning and Reward Prediction
+11. Time-Series Learning and Nonlinear Signal Processing
 
-12. Predictor-Corrector Models and Probabilistic Inference
+12. Temporal-Difference Learning and Reward Prediction
 
-13. Simulated Evolution and the Genetic Algorithm
+13. Predictor-Corrector Models and Probabilistic Inference
 
-14. Future Directions in Neural Systems Modeling
+14. Simulated Evolution and the Genetic Algorithm
+
+15. Future Directions in Neural Systems Modeling
 
 
 
