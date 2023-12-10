@@ -2,7 +2,7 @@
 This repository contains MATLAB code for all the computational neuroscience models presented in the book:  
 Anastasio TJ (2010) Tutorial on Neural Systems Modeling, Sinauer Associates
 
-All of the code (MATLAB mfiles) is extensively commented and was written to be easily followed. Step-by-step instructions for using the code, along with the mathimatical basis of the models and their neurobiological implications, are presented in the book, to which the user of this repository is referred for details.    
+All of the code (MATLAB mfiles) was written to be easily followed. Step-by-step instructions for using the code, along with the mathimatical basis of the models and their neurobiological implications, are presented in the book, to which the user of this repository is referred for details.    
 
 The book is organized into 14 chapters, each with its own set of mfiles. The book chapters and the mfiles to which they belong are listed below.   
 
@@ -37,7 +37,26 @@ ITNLIN.m -- iterates a lateral inhibitory network of nonlinear model neurons
 itrel.m -- iterates a winner-take-all lateral inhibitory network  
 setit.m -- sets parameters for a winner-take-all lateral inhibitory network  
 
-Chapter 4. Covariation Learning and Auto-Associative Memory
+Chapter 4. Covariation Learning and Auto-Associative Memory  
+HPPTNS.m -- holds sets of patterns to be remembered by auto-associative networks  
+HPCVMX.m -- makes Hopfield auto-associative covariance matrix using nested loops  
+HPALLM.m -- makes Hebb, post, pre, and Hopfield covariance matrices using nested loops  
+HPALLO.m -- makes Hebb, post, pre, and Hopfield covariance matrices using outer product  
+HPSYUP.m -- makes 1 synchronous update of an auto-associative network  
+HPASUP.m -- makes 1 asychronous update of an auto-associative network  
+HPSY.m -- computes N synchronous updates of an auto-associative network  
+HPAS.m -- computes N asychronous updates of an auto-associative network  
+HPCAS.m -- computes N asychronous updates and saves every 10th network state
+HPCMVR.m -- verifies auto-associative networks started from weak initial pattern  
+HPLSCM.m -- lesions auto-associative networks by removing connections at random  
+HPRNPT.m -- makes a set of random patterns according to preset probabilities  
+hpopcm.m -- makes optimal associative matrix given probability of input presence  
+hpopev.m -- creates and evaluates optimal associative network given input probability  
+
+
+
+
+
 
 Chapter 5. Unsupervised Learning and Distributed Representations
 
