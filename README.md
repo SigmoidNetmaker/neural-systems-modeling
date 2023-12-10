@@ -18,8 +18,8 @@ Chapter 2. Recurrent Connections and Simple Neural Circuits
 
 sn1posFB -- computes responses of single model neuron with positive feedback  
 sn1FBwithTauDel -- computes responses of neuron with time constant and positive feedback  
-sn2posFB.m  -- computes responses of two model neurons in series with positive feedback
-sn2Raphan.m -- simulates vestibular velocity storage with two parallel pathways
+sn2posFB.m  -- computes responses of two model neurons in series with positive feedback  
+sn2Raphan.m -- simulates vestibular velocity storage with two parallel pathways  
 sn2VelStorLeak.m -- simulates velocity storage and leakage with forward and feeback pathways  
 sn2Integrator.m -- computes responses of two units with feedback and reciprocal connections  
 sn2HarOsc.m  -- simulates a central pattern generator with two units and one input  
