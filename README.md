@@ -80,7 +80,7 @@ bpcat.m -- shows how supervised training can easily overcome "catastrophic inter
 Chapter 7. Reinforcement Learning and Associative Conditioning  
 
 rlPatterns.m -- holds input and desired-output patterns for reinforcement learning  
-rlTrainOne.m -- uses perturbation of one weight at a time to train network with only one output
+rlTrainOne.m -- uses perturbation of one weight at a time to train network with only one output  
 rltrain.m -- uses perturbation of all weights simultaneously to train network with only one output  
 rlTrainOneWhile.m -- one-weight-at-a-time perturbation training until error below tolerance  
 rlTrailAll.m -- all-weight perturbation training with update based on whole pattern set  
