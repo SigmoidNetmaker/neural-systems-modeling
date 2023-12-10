@@ -28,14 +28,14 @@ sn3BurstGen.m -- simulates a relaxation-oscillator burst-generator with three mo
 sn4CPG.m -- simulates the locust flight central pattern generator using four model neurons  
 snNposFB.m -- computes the responses of N units with positive feedback in series  
 
+Chapter 3. Forward and Recurrent Lateral Inhibition  
 
-
-
-
-
-
-
-Chapter 3. Forward and Recurrent Lateral Inhibition
+GAUSS.m -- constructs a Gaussian connection-weight profile  
+REPCON.m -- constructs a weight matrix by shifting and laminating a weight profile  
+ITLIN.m -- iterates a lateral inhibitory network of linear model neurons
+ITNLIN.m -- iterates a lateral inhibitory network of nonlinear model neurons  
+itrel.m -- iterates a winner-take-all lateral inhibitory network  
+setit.m -- sets parameters for a winner-take-all lateral inhibitory network  
 
 Chapter 4. Covariation Learning and Auto-Associative Memory
 
