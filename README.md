@@ -77,9 +77,23 @@ BPBPT.m -- trains a two-layered pattern associator network uisng backpropagation
 BPBPV.m -- verifies a two-layered pattern associator trained uisng backpropagation  
 bpcat.m -- shows how supervised training can easily overcome "catastrophic interference"  
 
+Chapter 7. Reinforcement Learning and Associative Conditioning  
+
+rlPatterns.m -- holds input and desired-output patterns for reinforcement learning  
+rlTrainOne.m -- uses perturbation of one weight at a time to train network with only one output
+rltrain.m -- uses perturbation of all weights simultaneously to train network with only one output  
+rlTrainOneWhile.m -- one-weight-at-a-time perturbation training until error below tolerance  
+rlTrailAll.m -- all-weight perturbation training with update based on whole pattern set  
+rlTrainAllRanIn.m -- all-weight perturbation training with update computed for each pattern  
+rlTrainAllWhile.m -- all-weight perturbation training until error below tolerance  
+rlTrainPGD.m -- all-weight perturbation training using parallel gradient descent  
+rlver.m -- verifies pattern associating networks trained using reinforcement learning  
+rlSetUP.m -- makes initially random wieght matrices for two-layered networks  
+rlDistRepTrain.m --  all-weight perturbation training of two-layered networks  
+rlDistRepVer.m -- verifies two-layered pattern associating networks trained by perturbation  
 
 
-Chapter 7. Reinforcement Learning and Associative Conditioning
+
 
 Chapter 8. Information Transmission and Unsupervised Learning
 
