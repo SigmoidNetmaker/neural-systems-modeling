@@ -32,7 +32,7 @@ Chapter 3. Forward and Recurrent Lateral Inhibition
 
 GAUSS.m -- constructs a Gaussian connection-weight profile  
 REPCON.m -- constructs a weight matrix by shifting and laminating a weight profile  
-ITLIN.m -- iterates a lateral inhibitory network of linear model neurons
+ITLIN.m -- iterates a lateral inhibitory network of linear model neurons  
 ITNLIN.m -- iterates a lateral inhibitory network of nonlinear model neurons  
 itrel.m -- iterates a winner-take-all lateral inhibitory network  
 setit.m -- sets parameters for a winner-take-all lateral inhibitory network  
