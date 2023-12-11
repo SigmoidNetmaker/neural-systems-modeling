@@ -18,27 +18,15 @@ Chapter 2. Recurrent Connections and Simple Neural Circuits
 twoLeakSeries.m -- computes responses of two units in series with positive feedback  
 NleakSeries.m -- computes responses of N units in series with positive feedback  
 velocityStoreLeak.m -- implements parallel and feedback models of velocity storage or leakage  
-twoUnitIntegrator.m -- simulates neural integrator using feedback and reciprocal connections  
+twoUnitIntegrator.m -- simulates neural integration using feedback and reciprocal connections  
 WilsonCPG.m -- implements linear version of Wilson's locust flight central pattern generator  
 nonlinearWilsonCPG.m -- implements nonlinear version of locust flight central pattern generator  
 halfCPG.m -- shows that each half of Wilson's locust flight CPG is itself an oscillator  
 
-
-
-
-sn1posFB -- computes responses of single model neuron with positive feedback  
-sn1FBwithTauDel -- computes responses of neuron with time constant and positive feedback  
-sn2posFB.m  --   
-sn2Raphan.m -- simulates vestibular velocity storage with two parallel pathways  
-sn2VelStorLeak.m -- simulates velocity storage and leakage with forward and feeback pathways  
-sn2Integrator.m -- 
-sn2HarOsc.m  -- simulates a central pattern generator with two units and one input  
-sn2HarOsc2.m -- simulates a central pattern generator with two units and two inputs  
-sn3BurstGen.m -- simulates a relaxation-oscillator burst-generator with three model neurons  
-sn4CPG.m -- simulates the locust flight central pattern generator using four model neurons  
-snNposFB.m -- computes the responses of N units with positive feedback in series  
-
 Chapter 3. Forward and Recurrent Lateral Inhibition  
+
+
+
 
 GAUSS.m -- constructs a Gaussian connection-weight profile  
 REPCON.m -- constructs a weight matrix by shifting and laminating a weight profile  
