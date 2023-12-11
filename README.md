@@ -10,17 +10,28 @@ Chapter 1. Vectors, Matrices, and Basic Neural Computations
 
 oneUnitWithPosFB.m -- implements positive feedback onto a single model neuron (a "unit")  
 habituationGWR.m -- simulates habituation of the Aplysia gill withdrawl reflex  
-habGWRfig.m -- same as habituationGWR.m but also produces figures  
-BigMess.m -- computes responses of single-layer network with random input and feedback connections
+habGWRfig.m -- same simulation as habituationGWR.m but also produces figures  
+BigMess.m -- computes responses of neural network with random input and feedback connections
 
 Chapter 2. Recurrent Connections and Simple Neural Circuits  
 
+twoLeakSeries.m -- computes responses of two units in series with positive feedback  
+NleakSeries.m -- computes responses of N units in series with positive feedback  
+velocityStoreLeak.m -- implements parallel and feedback models of velocity storage or leakage  
+twoUnitIntegrator.m -- simulates neural integrator using feedback and reciprocal connections  
+WilsonCPG.m -- implements linear version of Wilson's locust flight central pattern generator  
+nonlinearWilsonCPG.m -- implements nonlinear version of locust flight central pattern generator  
+halfCPG.m -- shows that each half of Wilson's locust flight CPG is itself an oscillator  
+
+
+
+
 sn1posFB -- computes responses of single model neuron with positive feedback  
 sn1FBwithTauDel -- computes responses of neuron with time constant and positive feedback  
-sn2posFB.m  -- computes responses of two model neurons in series with positive feedback  
+sn2posFB.m  --   
 sn2Raphan.m -- simulates vestibular velocity storage with two parallel pathways  
 sn2VelStorLeak.m -- simulates velocity storage and leakage with forward and feeback pathways  
-sn2Integrator.m -- computes responses of two units with feedback and reciprocal connections  
+sn2Integrator.m -- 
 sn2HarOsc.m  -- simulates a central pattern generator with two units and one input  
 sn2HarOsc2.m -- simulates a central pattern generator with two units and two inputs  
 sn3BurstGen.m -- simulates a relaxation-oscillator burst-generator with three model neurons  
