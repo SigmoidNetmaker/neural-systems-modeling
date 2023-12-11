@@ -64,19 +64,13 @@ backPropTrain.m -- trains three-layered network to associate patterns using back
 approxAndCatoFig.m -- trains back-prop on sine then exp and shows catastriphic interference  
 interleaveSinExp.m -- trains a back-prop network on both sine and exp through interleaving  
 
-
-BPPTNS.m -- holds input and desired output patterns for supervised learning  
-URNMX.m -- makes initial weight matrix of random numbers between -1 and +1  
-BPHPT.m -- trains a pattern associator network uisng the covariance rule  
-BPHPV.m -- verifies a pattern associator trained uisng the covariance rule  
-BPDRT.m -- trains a pattern associator network uisng the delta rule  
-BPDRV.m -- verifies a pattern associator trained uisng the delta rule  
-BPRNMX.m -- makes initially random weight matrices for two-layered networks  
-BPBPT.m -- trains a two-layered pattern associator network uisng backpropagation  
-BPBPV.m -- verifies a two-layered pattern associator trained uisng backpropagation  
-bpcat.m -- shows how supervised training can easily overcome "catastrophic interference"  
-
 Chapter 7. Reinforcement Learning and Associative Conditioning  
+
+
+
+
+
+
 
 rlPatterns.m -- holds input and desired-output patterns for perturbative reinforcement learning  
 rlTrainOne.m -- uses perturbation of one weight at a time to train network with only one output  
