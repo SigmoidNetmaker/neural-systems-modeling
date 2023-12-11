@@ -79,21 +79,21 @@ bpcat.m -- shows how supervised training can easily overcome "catastrophic inter
 
 Chapter 7. Reinforcement Learning and Associative Conditioning  
 
-rlPatterns.m -- holds input and desired-output patterns for reinforcement learning  
+rlPatterns.m -- holds input and desired-output patterns for perturbative reinforcement learning  
 rlTrainOne.m -- uses perturbation of one weight at a time to train network with only one output  
 rltrain.m -- uses perturbation of all weights simultaneously to train network with only one output  
 rlTrainOneWhile.m -- one-weight-at-a-time perturbation training until error below tolerance  
 rlTrailAll.m -- all-weight perturbation training with update based on whole pattern set  
 rlTrainAllRanIn.m -- all-weight perturbation training with update computed for each pattern  
 rlTrainAllWhile.m -- all-weight perturbation training until error below tolerance  
-rlTrainPGD.m -- all-weight perturbation training using parallel gradient descent  
-rlver.m -- verifies pattern associating networks trained using reinforcement learning  
+rlTrainPGD.m -- all-weight perturbative reinforcement training using parallel gradient descent  
+rlver.m -- verifies pattern associating networks trained using perturbative reinforcement learning  
 rlSetUP.m -- makes initially random wieght matrices for two-layered networks  
-rlDistRepTrain.m --  all-weight perturbation training of two-layered networks  
+rlDistRepTrain.m --  all-weight perturbative reinforcement training of two-layered networks  
 rlDistRepVer.m -- verifies two-layered pattern associating networks trained by perturbation  
-
-
-
+rlAvoid.m -- implements a schema model of avoidance conditioning using reinforcement learning  
+rlCallAvoid.m -- implements avoidance conditioning model with addition of an innovation unit  
+rlDisAv.m -- implements avoidance conditioning model in which innovation unit can be lesioned  
 
 Chapter 8. Information Transmission and Unsupervised Learning
 
