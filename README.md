@@ -77,6 +77,17 @@ avoidanceLearnCall.m -- implements avoidance schema model with two command and o
 
 Chapter 8. Information Transmission and Unsupervised Learning  
 
+infoCOMP.m -- computes entropies and mutual information given input and conditional probabilities  
+info2by2.m -- illustrates information transmission in a neural network with two inputs and two outputs  
+info1byN.m -- computes mutual information between one input and N outputs with stochastic relationship  
+infoMax2by2.m -- trains a network with two inputs and two outputs using Bell/Sejnowski infomax algorithm  
+infoMaxBBS.m -- implements blind source separation using Bell/Sejnowski infomax algorithm  
+competitive2by2.m -- trains two-input to two-output network using competitive unsupervised learning  
+infoSOMbackground.m -- trains winner-take-all network and finds conditional prob between input and output  
+
+
+
+
 
 
 Chapter 9. Probability Estimation and Supervised Learning
