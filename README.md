@@ -131,15 +131,13 @@ pbnDeltaRule.m -- uses delatRule to train a unit with feedback to track a moving
 
 Chapter 13. Simulated Evolution and the Genetic Algorithm  
 
-
+gaMinimum.m -- uses the genetic algorithm to find minimum of a function  
+backPropTrainFORga.m -- trains three-layered network using backprop with evolvable hidden layer  
+gaHidden.m -- uses genetic algorithm to optimize number of hidden units in a backprop network  
+gaOpfield.m -- uses genetic algorithm to optimize Hopfield (covariation) rule  
+gaBubble.m -- uses genetic algorithm to optimize the activity bubble network  
+gaNonlinearCPG.m -- attempts to train CPG oscillator using the genetic algorithm  
+gaNonlinearHalfCPG.m -- attempts to train half CPG oscillator using the genetic algorithm  
 
 Chapter 14. Future Directions in Neural Systems Modeling  
 Note: This final chapter is purely prospective and has no associated code.  
-
-
-
-
-
-
-
-
