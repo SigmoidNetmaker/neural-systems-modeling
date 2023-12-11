@@ -25,17 +25,17 @@ halfCPG.m -- shows that each half of Wilson's locust flight CPG is itself an osc
 
 Chapter 3. Forward and Recurrent Lateral Inhibition  
 
-
-
-
-GAUSS.m -- constructs a Gaussian connection-weight profile  
-REPCON.m -- constructs a weight matrix by shifting and laminating a weight profile  
-ITLIN.m -- iterates a lateral inhibitory network of linear model neurons  
-ITNLIN.m -- iterates a lateral inhibitory network of nonlinear model neurons  
-itrel.m -- iterates a winner-take-all lateral inhibitory network  
-setit.m -- sets parameters for a winner-take-all lateral inhibitory network  
+gaussPro.m -- constructs a discrete Gaussian connection-weight profile  
+shiftLam.m -- makes connectivity matrix as shifted versions of weight profile  
+forwardLatInhib.m -- implements some forward lateral inhibition examples  
+winnersTakeAll.m -- simulates a winners-take-all lateral inhibitory network  
+feedbackLatInhib.m -- implements some feedback lateral inhibition examples  
+BassoAndWurtz.m -- simulates findings of Basso and Wurtz on superior colliculus  
 
 Chapter 4. Covariation Learning and Auto-Associative Memory  
+
+
+
 
 HPPTNS.m -- holds sets of patterns to be remembered by auto-associative networks  
 HPCVMX.m -- makes Hopfield auto-associative covariance matrix using nested loops  
