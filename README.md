@@ -46,7 +46,12 @@ longSequence.m -- explores long-term behavior of an asymmetric Hopfield network
 
 Chapter 5. Unsupervised Learning and Distributed Representations  
 
-
+SOMpatterns.m -- holds some input patterns for unsupervised learning  
+NormalizePatterns.m -- normalizes patterns for use in unsupervised learning  
+KohonenSOM.m -- implements a self-organizing map using the basic Kohonen algorithm  
+SOMoutImage.m -- images the output of the model neurons in a self-organizing map  
+tuningCurves.m -- shows the tuning curve used to train the tonotopic auditory map  
+tonotopicSOM.m -- produces tonotopically orgaized auditory map using Kohonen algorithm
 
 
 SMPTNS.m -- holds patterns for training self-organizing feature maps  
