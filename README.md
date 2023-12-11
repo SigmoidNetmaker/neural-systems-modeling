@@ -108,6 +108,18 @@ rbpShortTermMemSS.m -- explores steady-state behavior of network trained to simu
 
 Chapter 11. Temporal-Difference Learning and Reward Prediction  
 
+gridworldSetUp.m -- sets up a stochastic gridworld for use in state value estimation procedures  
+iterativeDynamicProg.m -- updates state values using iterative dynamic programming algorithm  
+leastMeanSquares.m -- updates state values using least mean squares algorithm  
+temporalDifference.m -- updates state values using temporal difference learning  
+midbrainDopamine.m -- simulates midbrain dopamine system behavior as temporal difference learning  
+midDopeRanRew.m -- implements midbrain dopamine temporal difference learning with random reward  
+midDopeLMS.m -- simulates midbrain dopamine system behavior as least mean squares learning  
+
+
+
+
+
 
 
 Chapter 12. Predictor-Corrector Models and Probabilistic Inference
