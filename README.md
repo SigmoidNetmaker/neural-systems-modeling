@@ -140,4 +140,5 @@ gaNonlinearCPG.m -- attempts to train CPG oscillator using the genetic algorithm
 gaNonlinearHalfCPG.m -- attempts to train half CPG oscillator using the genetic algorithm  
 
 Chapter 14. Future Directions in Neural Systems Modeling  
+
 Note: This final chapter is purely prospective and has no associated code.  
