@@ -95,16 +95,20 @@ unisensoryDeltaRule.m -- trains a unit to estimate unisensory target prob using 
 bisensoryBayesRule.m -- computes bisensory target probability using Bayes Rule  
 bisensoryDeltaRule.m -- trains a unit to estimate bisensory target prob using delta rule  
 
-Chapter 10. Time-Series Learning and Nonlinear Signal Processing
+Chapter 10. Time-Series Learning and Nonlinear Signal Processing  
+
+rbpTwoUnitIntegrator.m -- uses recurrent back-propagation to train a linear neural integrator  
+rbpVelocityStorageLinear.m -- uses recurrent back-prop to train linear network on velocity storage  
+rbpVelocityStorageNonlinear.m -- uses recurrent back-prop to train nonlinear network on velocity storage  
+plotFourHiddenUnits.m -- plots responses of four hiddens units trained to simulate velocity storage  
+itemGate.m -- generates items to be remembered and their gates used to train models of short-term memory  
+rbpShortTermMemTrain.m -- uses recurrent back-prop to train a network to simulate short-term memory  
+rbpShortTermMemTest.m -- tests behavior of recurrent network trained to simulate short-term memory  
+rbpShortTermMemSS.m -- explores steady-state behavior of network trained to simulate short-term memory  
 
 Chapter 11. Temporal-Difference Learning and Reward Prediction  
 
-tdgrid.m -- sets up a simple grid world for temporal difference learning  
-tdseq.m -- generates state transition sequence using allowed transitions in grid world  
-tdapt.m -- updates grid world state values using adaptive dynamic programming  
-tdlms.m -- updates grid world state values using the least mean squares algorithm  
-tdtdu.m -- updates grid world state values using the temporal difference algorithm  
-tdmds.m -- simulates mesencephalic dopamine system using temporal difference learning  
+
 
 Chapter 12. Predictor-Corrector Models and Probabilistic Inference
 
