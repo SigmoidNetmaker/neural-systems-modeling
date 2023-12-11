@@ -55,7 +55,14 @@ tonotopicSOM.m -- produces tonotopically orgaized auditory map using Kohonen alg
 
 Chapter 6. Supervised Learning and Non-Uniform Representations  
 
-
+superPatterns.m -- holds some patterns for supervised learning examples  
+HebbPatAssoc.m -- trains two-layered networks to associate patterns using Hebb rule  
+covarPatAssoc.m -- trains two-layered networks to associate patterns using covarience rule  
+squashDerivSquash.m -- illustrates squashing function and derivative of squashing funciton  
+deltaRuleTrain.m -- trains two-layered network to associate patterns using delta rule  
+backPropTrain.m -- trains three-layered network to associate patterns using backpropagation  
+approxAndCatoFig.m -- trains back-prop on sine then exp and shows catastriphic interference  
+interleaveSinExp.m -- trains a back-prop network on both sine and exp through interleaving  
 
 
 BPPTNS.m -- holds input and desired output patterns for supervised learning  
