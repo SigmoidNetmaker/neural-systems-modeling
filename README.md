@@ -66,7 +66,14 @@ interleaveSinExp.m -- trains a back-prop network on both sine and exp through in
 
 Chapter 7. Reinforcement Learning and Associative Conditioning  
 
-
+pertPatterns.m -- holds some patterns for purturbative reinforcement learning  
+pertGradientOneByOne.m -- trains two-layered pattern associator using single weight perturbation  
+pertGradientParallel.m -- trains two-layered pattern associator using parallel weight perturbations  
+pertDirDriftOneByOne.m -- trains two-layered pattern associator using single weight directed drift  
+pertDirectedDrift.m -- trains two-layered pattern associator using parallel directed drift algorithm  
+pertDistributedRep.m -- produces nonuniform distributed representation of commands via directed drift  
+avoidanceLearn.m -- implements reinforcement learning schema model of avoidance with two command units  
+avoidanceLearnCall.m -- implements avoidance schema model with two command and one innovation unit  
 
 
 
