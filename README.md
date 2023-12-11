@@ -116,13 +116,18 @@ midbrainDopamine.m -- simulates midbrain dopamine system behavior as temporal di
 midDopeRanRew.m -- implements midbrain dopamine temporal difference learning with random reward  
 midDopeLMS.m -- simulates midbrain dopamine system behavior as least mean squares learning  
 
+Chapter 12. Predictor-Corrector Models and Probabilistic Inference  
 
-
-
-
-
-
-Chapter 12. Predictor-Corrector Models and Probabilistic Inference
+runningAverage.m -- implements a running average of a noise series  
+directionSelectivity.m -- implements a simple direction-selective network  
+direcSelecMultiSpeed.m -- implements a direction-selective network that operates at multiple speeds  
+BUTDjointDistribution.m -- simulates visual bottom-up/top-down processing using joint distribution  
+BUTDprobInference.m -- simulates visual bottom-up/top-down processing using probabilistic inference  
+BUTDprobInfImage3.m -- implements an example of visual bottom-up/top-down processing using prob-inf  
+BUTDprobInfCombo9 -- simulates visual bottom-up/top-down processing using prob-inf and more combos  
+predictCorrectSetUp.m -- sets up a predictor-corrector model of visual target tracking  
+pbnPredictCorrect.m -- implements predictor-corrector model of tracking intermittently visible target  
+pbnDeltaRule.m -- uses delatRule to train a unit with feedback to track a moving visual target  
 
 Chapter 13. Simulated Evolution and the Genetic Algorithm  
 
