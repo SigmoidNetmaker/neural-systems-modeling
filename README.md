@@ -95,13 +95,22 @@ rlAvoid.m -- implements a schema model of avoidance conditioning using reinforce
 rlCallAvoid.m -- implements avoidance conditioning model with addition of an innovation unit  
 rlDisAv.m -- implements avoidance conditioning model in which innovation unit can be lesioned  
 
-Chapter 8. Information Transmission and Unsupervised Learning
+Chapter 8. Information Transmission and Unsupervised Learning  
+
+
 
 Chapter 9. Probability Estimation and Supervised Learning
 
 Chapter 10. Time-Series Learning and Nonlinear Signal Processing
 
-Chapter 11. Temporal-Difference Learning and Reward Prediction
+Chapter 11. Temporal-Difference Learning and Reward Prediction  
+
+tdgrid.m -- sets up a simple grid world for temporal difference learning  
+tdseq.m -- generates state transition sequence using allowed transitions in grid world
+tdapt.m -- updates grid world state values using adaptive dynamic programming  
+tdlms.m -- updates grid world state values using the least mean squares algorithm  
+tdtdu.m -- updates grid world state values using the temporal difference algorithm  
+tdmds.m -- simulates mesencephalic dopamine system using temporal difference learning  
 
 Chapter 12. Predictor-Corrector Models and Probabilistic Inference
 
