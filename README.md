@@ -85,12 +85,15 @@ infoMaxBBS.m -- implements blind source separation using Bell/Sejnowski infomax 
 competitive2by2.m -- trains two-input to two-output network using competitive unsupervised learning  
 infoSOMbackground.m -- trains winner-take-all network and finds conditional prob between input and output  
 
+Chapter 9. Probability Estimation and Supervised Learning  
 
-
-
-
-
-Chapter 9. Probability Estimation and Supervised Learning
+GaussianDeviatesFig.m -- illustrates bivariate Gaussian distribution with covariation  
+classifyFishBayesRule.m -- illustrates fish classification example using Bayes Rule  
+classifyFishBackProp.m -- uses backpropagation to train a network to classify fish  
+unisensoryBayesRule.m -- computes unisensory target probability using Bayes Rule  
+unisensoryDeltaRule.m -- trains a unit to estimate unisensory target prob using delta rule  
+bisensoryBayesRule.m -- computes bisensory target probability using Bayes Rule  
+bisensoryDeltaRule.m -- trains a unit to estimate bisensory target prob using delta rule  
 
 Chapter 10. Time-Series Learning and Nonlinear Signal Processing
 
