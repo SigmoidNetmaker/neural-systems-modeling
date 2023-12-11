@@ -2,18 +2,17 @@
 This repository contains MATLAB code for all the computational neuroscience models presented in the book:  
 Anastasio TJ (2010) Tutorial on Neural Systems Modeling, Sinauer Associates
 
-All of the code (MATLAB mfiles) was written to be easily followed. Step-by-step instructions for using the code, along with the mathimatical basis of the models and their neurobiological implications, are presented in the book, to which the user of this repository is referred for details.    
+All of the code (MATLAB mfiles) is extensively commented and was written to be easily followed. Step-by-step instructions for using the code, along with the mathimatical basis of the models and their neurobiological implications, are presented in the book, to which the user of this repository is referred for details.    
 
 The book is organized into 14 chapters, each with its own set of mfiles. The book chapters and the mfiles to which they belong are listed below.   
 
 Chapter 1. Vectors, Matrices, and Basic Neural Computations  
 
-introPlay.m -- performs some simple vector manipulations and computations  
-BiVarGaussPlay.m -- computes and displays bivariate Gaussian distributions  
-habGWR.m -- simulates habituation of the Aplysia gill withdrawl reflex  
-sn1posFB.m -- implements positive feedback onto a single model neuron (also called a "unit")  
+oneUnitWithPosFB.m -- implements positive feedback onto a single model neuron (a "unit")  
+habituationGWR.m -- simulates habituation of the Aplysia gill withdrawl reflex  
+habGWRfig.m -- same as habituationGWR.m but also produces figures  
 BigMess.m -- computes responses of single-layer network with random input and feedback connections
-  
+
 Chapter 2. Recurrent Connections and Simple Neural Circuits  
 
 sn1posFB -- computes responses of single model neuron with positive feedback  
@@ -114,7 +113,9 @@ tdmds.m -- simulates mesencephalic dopamine system using temporal difference lea
 
 Chapter 12. Predictor-Corrector Models and Probabilistic Inference
 
-Chapter 13. Simulated Evolution and the Genetic Algorithm
+Chapter 13. Simulated Evolution and the Genetic Algorithm  
+
+
 
 Chapter 14. Future Directions in Neural Systems Modeling  
 Note: This final chapter is purely prospective and has no associated code.  
