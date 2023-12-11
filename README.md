@@ -53,16 +53,10 @@ SOMoutImage.m -- images the output of the model neurons in a self-organizing map
 tuningCurves.m -- shows the tuning curve used to train the tonotopic auditory map  
 tonotopicSOM.m -- produces tonotopically orgaized auditory map using Kohonen algorithm
 
-
-SMPTNS.m -- holds patterns for training self-organizing feature maps  
-SMNP.m -- normalizes patters for training self-organizing feature maps  
-SMRNMX.m -- makes a matrix of random numbers between -1 and +1  
-SMSK.m -- performs unsupervised learning using simplified Kohonen algorithm  
-SMVR.m -- verifies self-organized maps created using simplified Kohonen  
-SMSKT.m -- simulates formation of a tonotopic self-organized feature map  
-SMVRT.m -- verifies tonotopic self-organized feature map  
-
 Chapter 6. Supervised Learning and Non-Uniform Representations  
+
+
+
 
 BPPTNS.m -- holds input and desired output patterns for supervised learning  
 URNMX.m -- makes initial weight matrix of random numbers between -1 and +1  
