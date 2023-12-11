@@ -8,10 +8,10 @@ The book is organized into 14 chapters, each with its own set of mfiles. The boo
 
 Chapter 1. Vectors, Matrices, and Basic Neural Computations  
 
-oneUnitWithPosFB.m -- implements positive feedback onto a single model neuron (a "unit")  
+oneUnitWithPosFB.m -- implements positive feedback onto single model neuron (unit)  
 habituationGWR.m -- simulates habituation of the Aplysia gill withdrawl reflex  
 habGWRfig.m -- same simulation as habituationGWR.m but also produces figures  
-BigMess.m -- computes responses of neural network with random input and feedback connections
+BigMess.m -- computes responses of network with random input and feedback connections
 
 Chapter 2. Recurrent Connections and Simple Neural Circuits  
 
