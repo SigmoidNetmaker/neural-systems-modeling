@@ -106,7 +106,7 @@ Chapter 10. Time-Series Learning and Nonlinear Signal Processing
 Chapter 11. Temporal-Difference Learning and Reward Prediction  
 
 tdgrid.m -- sets up a simple grid world for temporal difference learning  
-tdseq.m -- generates state transition sequence using allowed transitions in grid world
+tdseq.m -- generates state transition sequence using allowed transitions in grid world  
 tdapt.m -- updates grid world state values using adaptive dynamic programming  
 tdlms.m -- updates grid world state values using the least mean squares algorithm  
 tdtdu.m -- updates grid world state values using the temporal difference algorithm  
