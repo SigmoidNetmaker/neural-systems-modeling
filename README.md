@@ -34,25 +34,20 @@ BassoAndWurtz.m -- simulates findings of Basso and Wurtz on superior colliculus
 
 Chapter 4. Covariation Learning and Auto-Associative Memory  
 
-
-
-
-HPPTNS.m -- holds sets of patterns to be remembered by auto-associative networks  
-HPCVMX.m -- makes Hopfield auto-associative covariance matrix using nested loops  
-HPALLM.m -- makes Hebb, post, pre, and Hopfield covariance matrices using nested loops  
-HPALLO.m -- makes Hebb, post, pre, and Hopfield covariance matrices using outer product  
-HPSYUP.m -- makes 1 synchronous update of an auto-associative network  
-HPASUP.m -- makes 1 asychronous update of an auto-associative network  
-HPSY.m -- computes N synchronous updates of an auto-associative network  
-HPAS.m -- computes N asychronous updates of an auto-associative network  
-HPCAS.m -- computes N asychronous updates and saves every 10th network state  
-HPCMVR.m -- verifies auto-associative networks started from weak initial pattern  
-HPLSCM.m -- lesions auto-associative networks by removing connections at random  
-HPRNPT.m -- makes a set of random patterns according to preset probabilities  
-hpopcm.m -- makes optimal associative matrix given probability of input presence  
-hpopev.m -- creates and evaluates optimal associative network given input probability  
+autoPatterns.m -- holds sets of patterns to be remembered by auto-associative networks  
+autoConnectivity.m -- makes Hebb, post, pre, and Hopfield auto-associator matrices  
+synchUp.m -- computes synchronous updates of auto-associator networks  
+AsynchUp.m -- computes asynchronous updates of auto-associator networks  
+autoExamples.m -- implements some auto-associator network recall examples  
+autoExercises.m -- implements some auto-associator network optimality examples  
+AsimConnectivity.m -- makes asymmetric Hopfield auto-associator matrix  
+trySequence.m -- explores sequence recall in an asymmetric Hopfield network  
+longSequence.m -- explores long-term behavior of an asymmetric Hopfield network  
 
 Chapter 5. Unsupervised Learning and Distributed Representations  
+
+
+
 
 SMPTNS.m -- holds patterns for training self-organizing feature maps  
 SMNP.m -- normalizes patters for training self-organizing feature maps  
